@@ -1,0 +1,84 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+* {
+  margin: 0px;
+  padding: 0px;
+  box-sizing: border-box;
+}
+
+.active {
+  color: #f89f1b;
+}
+
+#my-nav{
+  display: flex;
+  justify-content: center;
+}
+
+#my-nav button:hover {
+  background-color: #f89f1b;
+  color: white;
+  border: 2px solid #fff;
+}
+
+.gray-bg {
+  background-color: whitesmoke;
+}
+
+.tag-cloud a {
+  padding: 15px;
+  font-size: 14px;
+  color: #fff;
+  background: #05182A;
+  border-radius: 3px;
+  margin-right: 4px;
+  margin-bottom: 4px;
+  height: 40px;
+  text-align: center;
+}
+.tag-cloud a:hover {
+  background: #f89f1b;
+}
+
+.blog-single {
+  padding-top: 20px;
+  padding-bottom: 20px;
+}
+
+.article {
+  box-shadow: 0 0 30px rgba(5, 24, 42, 0.3);
+  border-radius: 5px;
+  overflow: hidden;
+  background: #ffffff;
+  padding: 15px;
+  margin: 15px 0 30px;
+}
+.article .article-title {
+  padding: 15px 0 20px;
+}
+.article .article-title h6 {
+  font-size: 14px;
+  font-weight: 700;
+  margin-bottom: 20px;
+}
+.article .article-title h6 a {
+  text-transform: uppercase;
+  color: #f89f1b;
+  border-bottom: 1px solid #f89f1b;
+}
+.article .article-title h2 {
+  color: #f89f1b;
+  font-weight: 600;
+}
+
+.article .article-content h4 {
+  color: #f89f1b;
+  font-weight: 600;
+  margin-bottom: 15px;
+}
+
+.article p{
+  padding-bottom: 20px;
+  color: #05182A;
+}
